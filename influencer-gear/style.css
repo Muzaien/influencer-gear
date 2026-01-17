@@ -1,0 +1,158 @@
+*header {
+    /* margin-left: 120px;
+    margin-right: 120px;
+    padding: 0;
+    margin-top: 90px; */
+}
+
+.icon-a {
+    height: 24px;
+    width: 24px;
+}
+
+.icon-b {
+    width: 36px;
+    height: 36px;
+}
+
+.header {
+    width: 100%;
+}
+
+/* Everything about navbar */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 0px;
+}
+
+.logo-name {
+
+    color: #3A3A3AFF;
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: #3A3A3AFF;
+    font-family: Poppins;
+    font-style: SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.nav-link {
+    list-style: none;
+
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #3A3A3AFF;
+}
+
+.nav-icons {
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+
+/* Everything about Hero section */
+.hero-container {
+    display: grid;
+    grid-column: (2, 1fr);
+    /* background-color: aqua; */
+    border: 2px salmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    /* height: 600px; */
+    /* width: 1200px; */
+}
+
+.hero-text {
+    padding-left: 10px;
+}
+
+.hero-text h1 {
+    /* Start your Journey as Influencer */
+    /* width: 582px;
+    height: 133px; */
+    color: rgba(58, 58, 58, 1);
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.hero-text p {
+    color: rgba(58, 58, 58, 1);
+
+    font-family: Poppins;
+    font-style: SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.btn {
+
+    width: 196px;
+    height: 44px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    text-decoration: none;
+    padding: 10px 24px 10px 24px;
+    border: none;
+    align-items: center;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.btn-eve {
+    display: flex;
+    
+}
+.hero-image {
+    position: relative;
+    justify-self: center;
+    background-image:url(./images/Circle\ design.png);
+    background-repeat: no-repeat;
+
+}
